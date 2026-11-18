@@ -1,0 +1,171 @@
+{
+  "device": "mps",
+  "coreset": 0.1,
+  "rows": [
+    {
+      "category": "bottle",
+      "train_images": 209,
+      "test_images": 83,
+      "bank_size": 16385,
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9836,
+      "fit_seconds": 182.0,
+      "test_ms_per_image_batched": 16.9,
+      "latency_ms_single_image": 16.1
+    },
+    {
+      "category": "cable",
+      "train_images": 224,
+      "test_images": 150,
+      "bank_size": 17561,
+      "image_auroc": 0.9974,
+      "pixel_auroc": 0.9854,
+      "fit_seconds": 90.1,
+      "test_ms_per_image_batched": 21.4,
+      "latency_ms_single_image": 16.3
+    },
+    {
+      "category": "capsule",
+      "train_images": 219,
+      "test_images": 132,
+      "bank_size": 17169,
+      "image_auroc": 0.9733,
+      "pixel_auroc": 0.9872,
+      "fit_seconds": 86.5,
+      "test_ms_per_image_batched": 16.1,
+      "latency_ms_single_image": 15.4
+    },
+    {
+      "category": "carpet",
+      "train_images": 280,
+      "test_images": 117,
+      "bank_size": 21952,
+      "image_auroc": 0.99,
+      "pixel_auroc": 0.9883,
+      "fit_seconds": 137.6,
+      "test_ms_per_image_batched": 21.4,
+      "latency_ms_single_image": 18.4
+    },
+    {
+      "category": "grid",
+      "train_images": 264,
+      "test_images": 78,
+      "bank_size": 20697,
+      "image_auroc": 0.9774,
+      "pixel_auroc": 0.9764,
+      "fit_seconds": 121.0,
+      "test_ms_per_image_batched": 20.3,
+      "latency_ms_single_image": 18.0
+    },
+    {
+      "category": "hazelnut",
+      "train_images": 391,
+      "test_images": 110,
+      "bank_size": 30654,
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9841,
+      "fit_seconds": 273.2,
+      "test_ms_per_image_batched": 32.2,
+      "latency_ms_single_image": 23.7
+    },
+    {
+      "category": "leather",
+      "train_images": 245,
+      "test_images": 124,
+      "bank_size": 19208,
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9907,
+      "fit_seconds": 103.6,
+      "test_ms_per_image_batched": 17.3,
+      "latency_ms_single_image": 16.5
+    },
+    {
+      "category": "metal_nut",
+      "train_images": 220,
+      "test_images": 115,
+      "bank_size": 17248,
+      "image_auroc": 0.9966,
+      "pixel_auroc": 0.9856,
+      "fit_seconds": 80.8,
+      "test_ms_per_image_batched": 18.2,
+      "latency_ms_single_image": 15.9
+    },
+    {
+      "category": "pill",
+      "train_images": 267,
+      "test_images": 167,
+      "bank_size": 20932,
+      "image_auroc": 0.949,
+      "pixel_auroc": 0.977,
+      "fit_seconds": 121.3,
+      "test_ms_per_image_batched": 21.0,
+      "latency_ms_single_image": 17.6
+    },
+    {
+      "category": "screw",
+      "train_images": 320,
+      "test_images": 160,
+      "bank_size": 25088,
+      "image_auroc": 0.9664,
+      "pixel_auroc": 0.9882,
+      "fit_seconds": 170.0,
+      "test_ms_per_image_batched": 22.7,
+      "latency_ms_single_image": 19.6
+    },
+    {
+      "category": "tile",
+      "train_images": 230,
+      "test_images": 117,
+      "bank_size": 18032,
+      "image_auroc": 0.9848,
+      "pixel_auroc": 0.9529,
+      "fit_seconds": 89.7,
+      "test_ms_per_image_batched": 17.0,
+      "latency_ms_single_image": 15.9
+    },
+    {
+      "category": "toothbrush",
+      "train_images": 60,
+      "test_images": 42,
+      "bank_size": 4704,
+      "image_auroc": 0.9972,
+      "pixel_auroc": 0.9865,
+      "fit_seconds": 7.2,
+      "test_ms_per_image_batched": 7.3,
+      "latency_ms_single_image": 8.8
+    },
+    {
+      "category": "transistor",
+      "train_images": 213,
+      "test_images": 100,
+      "bank_size": 16699,
+      "image_auroc": 1.0,
+      "pixel_auroc": 0.9764,
+      "fit_seconds": 78.1,
+      "test_ms_per_image_batched": 14.5,
+      "latency_ms_single_image": 17.1
+    },
+    {
+      "category": "wood",
+      "train_images": 247,
+      "test_images": 79,
+      "bank_size": 19364,
+      "image_auroc": 0.9939,
+      "pixel_auroc": 0.9378,
+      "fit_seconds": 103.1,
+      "test_ms_per_image_batched": 15.8,
+      "latency_ms_single_image": 16.6
+    },
+    {
+      "category": "zipper",
+      "train_images": 240,
+      "test_images": 151,
+      "bank_size": 18816,
+      "image_auroc": 0.9947,
+      "pixel_auroc": 0.9824,
+      "fit_seconds": 93.1,
+      "test_ms_per_image_batched": 17.9,
+      "latency_ms_single_image": 16.3
+    }
+  ]
+}
