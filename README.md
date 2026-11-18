@@ -42,3 +42,7 @@ python3 -m venv .venv && .venv/bin/pip install torch torchvision scikit-learn pi
 
 ## Next: real parts on a camera
 Phase 2 runs the same model live on 3D-printed parts with a fixed camera on an edge box. It will log precision, recall, latency and false alarms per 100 parts.
+
+## Credits
+- PatchCore: K. Roth et al., "Towards Total Recall in Industrial Anomaly Detection," CVPR 2022.
+- MVTec AD: P. Bergmann et al., CVPR 2019. The dataset is CC BY-NC-SA 4.0 and is not in this repo. The heatmap images in `results/` are made from it and are shared under the same license.

@@ -3,3 +3,4 @@ data/
 results/*.log
 __pycache__/
 *.pt
+results/mvtec_20261117_225635/
